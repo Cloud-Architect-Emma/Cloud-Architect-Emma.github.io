@@ -74,5 +74,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 **Emma**  
-AWS/Data Architect.  
-
+AWS/Data Architect 
+[GitHub Profile](https://github.com/Cloud-Architect-Emma)
