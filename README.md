@@ -73,6 +73,6 @@ The architecture diagram below shows the flow of data from ingestion in S3 to pr
 This project is licensed under the [MIT License](LICENSE).
 
 ## Author
-**Your Name**  
-AWS/Data Architect  
-[GitHub Profile](https://github.com/Cloud-Architect-Emma)
+**Emma**  
+AWS/Data Architect.  
+
