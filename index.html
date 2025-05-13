@@ -6,29 +6,38 @@
   <title>Emmanuela – AWS & Data Architect</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;
-      background: #f7f9fc;
-      color: #333;
+      background: #f0f4f8;
+      color: #1f2937;
       margin: 0;
       padding: 0;
     }
     header {
-      background: #1f2937;
+      background: #0f172a;
       color: white;
-      padding: 2rem 1rem;
+      padding: 3rem 1rem;
       text-align: center;
     }
-    h1, h2 {
+    header h1 {
+      font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
+    header h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.25rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
     .container {
-      max-width: 960px;
+      max-width: 1000px;
       margin: auto;
-      padding: 1rem;
+      padding: 2rem;
     }
     section {
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
     ul {
       list-style: none;
@@ -37,25 +46,29 @@
     ul li {
       background: white;
       margin-bottom: 1rem;
-      padding: 1rem;
-      border-left: 4px solid #2563eb;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      padding: 1.2rem;
+      border-left: 4px solid #38bdf8;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.1);
     }
     footer {
       text-align: center;
       padding: 1rem;
-      background: #1f2937;
+      background: #0f172a;
       color: white;
     }
     a {
       color: #2563eb;
       text-decoration: none;
     }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>👋 Hi, I'm Emmanuela</h1>
+    <h1>👋 Welcome to My Cloud Architecture Portfolio</h1>
+    <h2>I'm Emmanuela</h2>
     <p>AWS & Data Architect | Based in London | Open to Full-Time & Hybrid Roles</p>
   </header>
 
@@ -63,46 +76,47 @@
     <section>
       <h2>About Me</h2>
       <p>
-        I'm an AWS & Data Architect passionate about designing secure, scalable, and data-driven solutions in the cloud. I enjoy turning data into actionable insights and deploying infrastructure using IaC tools. I’m building real-world AWS projects to demonstrate my ability to deliver serverless, cloud-native, and analytics-focused architectures.
+        I'm a passionate AWS & Data Architect focused on building scalable, secure, and cost-effective solutions using cloud-native tools. I specialize in designing end-to-end serverless systems, automating data pipelines, and applying Infrastructure as Code (IaC) practices to deliver efficient, modern architectures.
       </p>
     </section>
 
     <section>
-      <h2>Technical Skills</h2>
+      <h2>Core Competencies</h2>
       <ul>
-        <li><strong>Cloud:</strong> AWS (EC2, S3, Lambda, RDS, DynamoDB, VPC, CloudFront, Route 53, CloudWatch, SNS, Athena, Glue)</li>
-        <li><strong>IaC:</strong> Terraform, CloudFormation</li>
-        <li><strong>Data:</strong> Glue, Athena, RDS, DynamoDB, Python (Pandas), SQL, Data Modeling</li>
-        <li><strong>Dev & Tools:</strong> Python, Bash, YAML, Git, GitHub, AWS CLI, Postman, Power BI, Tableau, Jupyter</li>
+        <li><strong>Cloud Infrastructure:</strong> AWS VPC, EC2, S3, Lambda, CloudFront, Route 53, IAM, CloudWatch</li>
+        <li><strong>Data Engineering:</strong> DynamoDB, RDS, Athena, Glue, Python, SQL, Data Modeling, ETL Pipelines</li>
+        <li><strong>Infrastructure as Code:</strong> Terraform, AWS CloudFormation, CI/CD</li>
+        <li><strong>Visualization & Tools:</strong> Power BI, Tableau, Postman, Git, GitHub, Jupyter</li>
       </ul>
     </section>
 
     <section>
-      <h2>Projects</h2>
+      <h2>Featured Projects</h2>
       <ul>
         <li>
-          <strong>Serverless TODO App</strong><br/>
-          Built with API Gateway, Lambda, DynamoDB (Python). <br/>
+          <strong>🔁 Serverless ETL Pipeline</strong><br/>
+          Simulates real-time data processing using Lambda, S3, DynamoDB, and CloudWatch.<br/>
+          <a href="https://github.com/Cloud-Architect-Emma/Serverless-ETL-Pipeline">View on GitHub</a>
+        </li>
+        <li>
+          <strong>📦 Serverless TODO App</strong><br/>
+          Built with API Gateway, Lambda, and DynamoDB (Python).<br/>
           <a href="https://github.com/Cloud-Architect-Emma/serverless-todo-api">View on GitHub</a>
         </li>
         <li>
-          <strong>3-Tier Web App</strong><br/>
-          Flask app deployed using EC2, RDS & CloudFormation. <br/>
+          <strong>🏗️ 3-Tier Web App</strong><br/>
+          Flask app deployed using EC2, RDS & CloudFormation.<br/>
           <a href="https://github.com/Cloud-Architect-Emma/3-Tier-Web-App-on-AWS">View on GitHub</a>
         </li>
         <li>
-          <strong>ETL Pipeline with AWS Glue + Athena</strong><br/>
-          Serverless data pipeline to query and transform S3 data (coming soon). <br/>
+          <strong>📊 Analytics Dashboard</strong><br/>
+          Data lake pipeline with AWS Glue, S3, Athena, and Power BI.<br/>
           <a href="https://github.com/Cloud-Architect-Emma/Data-Pipeline-Analytics-Dashboard-with-AWS-Glue-S3-Athena-and-Power-BI">View on GitHub</a>
         </li>
         <li>
-          <strong>Serverless-SaaS-Application</strong><br/>
-          Deployed with CloudFront and DNS via Route 53.<br/>
+          <strong>📡 Serverless SaaS Application</strong><br/>
+          API-driven recommendation engine deployed with S3 and Route 53.<br/>
           <a href="https://github.com/Cloud-Architect-Emma/Serverless-SaaS-Application">View on GitHub</a>
-        </li>
-        <li>
-          <strong>Infrastructure Automation</strong><br/>
-          CloudFormation templates for EC2, RDS, and Security Groups.<br/>
         </li>
       </ul>
     </section>
@@ -110,13 +124,13 @@
     <section>
       <h2>Contact</h2>
       <p>📧 <a href="mailto:emmanuela_prince@yahoo.com">emmanuela_prince@yahoo.com</a><br/>
-         🔗 <a href="https://linkedin.com/in/cloud-architect-emma">LinkedIn</a>
+         🔗 <a href="https://linkedin.com/in/cloud-architect-emma">Connect on LinkedIn</a>
       </p>
     </section>
   </div>
 
   <footer>
-    &copy; 2025 Emmanuela | Built with ❤️ and GitHub Pages
+    &copy; 2025 Emmanuela | Built with ❤️ using GitHub Pages
   </footer>
 </body>
 </html>
